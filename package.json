@@ -1,0 +1,13 @@
+{
+  "name": "v6-depgraph",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "./start.sh"
+  },
+  "dependencies": {
+    "@types/node": "^20.10.6",
+    "glob": "^10.3.10"
+  }
+}
