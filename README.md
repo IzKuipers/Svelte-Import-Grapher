@@ -6,7 +6,7 @@ This is a simple utility to generate a dependency graph of **Svelte+TS** project
 
 ### Prerequisites
 
-- A Linux system (sorry Windows/Mac users)
+- A Linux system (sorry Mac users)
 - NodeJS 18+
 - Access to the Git repository you want to graph (use VSCode's integrated terminal if unsure)
 - Svelte and ONLY Typescript in your project.
@@ -14,6 +14,9 @@ This is a simple utility to generate a dependency graph of **Svelte+TS** project
 ### Do the thing
 
 Open [start.sh](./start.sh) and change variables `repo` and `name` to the full URL of the repository and the name of the output image. By my testing, `png`, `pdf` and `svg` are supported, but more that I don't know about could work, that's up to you to test out.
+
+- If on Windows, run `start.bat`,
+- If on Linux, run `./start.sh`.
 
 ## How does it work?
 
